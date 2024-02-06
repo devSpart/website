@@ -3,14 +3,10 @@
   background-color: white;
   padding: 20px;
   border-bottom: 2px solid navy;
-  height: 100vh; /* Cover the entire viewport height */
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
 }
 
 /* Reset default margin and padding */
-body, h1, h2, h3 {
+body, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
 }
@@ -18,7 +14,10 @@ body, h1, h2, h3 {
 /* Body styling */
 body {
   background-color: lightblue;
-  padding: 0; /* Reset padding to allow .top-section to cover the entire top section */
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
 }
 
 /* Heading styles */
@@ -55,6 +54,13 @@ h2 {
 }
 
 h3 {
+  font-family: Arial;
+  color: navy;
+  text-align: center;
+  line-height: 7;
+}
+
+h4 {
   font-family: Arial;
   color: navy;
   text-align: center;
