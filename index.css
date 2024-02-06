@@ -5,6 +5,12 @@
   border-bottom: 2px solid navy;
 }
 
+/* Reset default margin and padding */
+body, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
 /* Body styling */
 body {
   background-color: lightblue;
