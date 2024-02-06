@@ -3,6 +3,8 @@
   background-color: white;
   padding: 20px;
   border-bottom: 2px solid navy;
+  height: 100vh; /* Cover the entire viewport height */
+  box-sizing: border-box; /* Include padding in the height */
 }
 
 /* Reset default margin and padding */
