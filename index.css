@@ -6,7 +6,7 @@
 }
 
 /* Reset default margin and padding */
-body, h1, h2, h3 {
+body, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
 }
@@ -54,6 +54,13 @@ h2 {
 }
 
 h3 {
+  font-family: Arial;
+  color: navy;
+  text-align: center;
+  line-height: 7;
+}
+
+h4 {
   font-family: Arial;
   color: navy;
   text-align: center;
