@@ -1,3 +1,11 @@
+/* Top section */
+.top-section {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 2px solid navy;
+}
+
+/* Body styling */
 body {
   background-color: lightblue;
   padding-top: 30px;
@@ -6,13 +14,13 @@ body {
   padding-left: 50px;
 }
 
+/* Heading styles */
 h1 {
   font-family: Bookman Old Style;
   font-size: 60px;
   color: navy;
   text-align: center;
   border-style: double;
-
 }
 
 h2 {
@@ -22,20 +30,21 @@ h2 {
   text-align: center;
 }
 
-.trackers {
-	line-height: 0;
+/* Additional styling */
+.trackers, .cookies, .ads, .cyber {
+  line-height: 0;
 }
+
 .cookies {
-	line-height: 0;
-	padding-right: 15px;
+  padding-right: 15px;
 }
+
 .ads {
-	line-height: 0;
-	padding-right: 65px;
+  padding-right: 65px;
 }
+
 .cyber {
-	line-height: 0;
-	padding-right: 30px;
+  padding-right: 30px;
 }
 
 h3 {
